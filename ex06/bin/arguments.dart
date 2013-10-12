@@ -1,5 +1,5 @@
 part of ex06;
-
+// fonction de lexercice 6.1 
 bool Palindrome(String text) {
   
   int debut = 0;
@@ -14,4 +14,18 @@ bool Palindrome(String text) {
   }
   
   return true;
+}// fonction de lexercice 6.1
+
+
+
+
+//fonction de lexercice 6.2
+
+int difference2date(DateTime y, DateTime z) {
+  
+  Duration tempsentrelesdeux = y.difference(z);
+  return tempsentrelesdeux.inDays.abs();
 }
+
+
+

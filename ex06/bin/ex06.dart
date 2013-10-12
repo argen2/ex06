@@ -1,8 +1,7 @@
 library ex06.dart;
 
 part 'arguments.dart';
-
-void ex06_1(){
+void main(){
 
   print('Exercice 6.1 - Verification si un texte est un Palindrome');
   print('');
@@ -32,37 +31,41 @@ answer2 = Palindrome(texte3);
 if (answer3==true) {
   print('Reponse : Vrai - Le texte est un palindrome');}
 else {print('Reponse : Faux - Le texte n est pas un palindrome');}
-print('-------------------------------------');
+print('---------------------------------------------');
 
 
 
-void ex06_2(){
-print('Exercice 6.2 - Calculer le nombre de jour entre deux dates');
+print('Exercice 6.2 - Calculer le nombre de jours entre deux dates');
 print('');
+DateTime date1=new DateTime(2013,10,12);
+print('La premiere date est : ${date1}');
+DateTime date2 = new DateTime(2013,03,19);
+print('La deuxieme date est : ${date2}');
+answer3=difference2date(date1,date2);
+print('Le nombre de jours qui separe ces deux dates : ${answer3} jours');
+print('--------------------------------------------------');
 
 
-}
-void ex06_3(){
+
+
 print('Exercice 6.3 - Conversion des notes en chiffres en notes en lettre');
 print('');
 
-}
 
-void ex06_4(){
+print('-------------------------------------------------------');
+
+
+
 print('Exercice 6.4 - Avec une liste de nom, faire 3 listes - < que 8 - > que 8 c - = 8');
 print('');
 
+print('-------------------------------------------------------');
 
-}
-void ex06_5(){
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
 print('');
+
+
+
+print('-------------------------------------------------------');
     
 }
-void main(){
-  ex06_1();
-  ex06_2();
-  ex06_3();
-  ex06_4();
-  ex06_5();
-}}
