@@ -56,15 +56,20 @@ print('-------------------------------------------------------');
 
 
 
-print('Exercice 6.4 - Avec une liste de nom, faire 3 listes - < que 8 - > que 8 c - = 8');
+print('''Exercice 6.4 - Avec une liste de nom, faire 3 listes  :
+ Plus grand que 8 lettres, Plus petites que 8 lettres et égale a 8 lettres''');
 print('');
-
+List listedenoms = ['Angele','Claude','Camyll','Francois','Pierre',
+                    'Olivier','Melissa','Pascal','Sarah','Vincent',
+                    'Marianne','Christian','Christine','Martin','Isabelle','Josee'
+                    'Sylvain','Marc','Valerie','Nathalie','Luc','Lucie','Paul','Ruth'];
+print('Voici la liste de nom : ${listedenoms}');
 print('-------------------------------------------------------');
 
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
 print('');
-
-
+List joueur = [{"Rodriguez":"Yankees"} ,{"Sabathia":"Yankees"},{"Princefielder":"Tigers"},{ "Verlander":"Tigers"},{"Beltran":"Cards"}, {"Molina":"Cards"},{"Ramirez":"Dodgers"}, {"Crawford":"Dodgers"}];
+List club = ["Yankees","Tigers","Cards","Dodgers"];  
 
 print('-------------------------------------------------------');
     
