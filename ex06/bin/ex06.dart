@@ -36,29 +36,33 @@ print('-------------------------------------');
 
 
 
-
+void ex06_2(){
 print('Exercice 6.2 - Calculer le nombre de jour entre deux dates');
 print('');
 
 
-
-
+}
+void ex06_3(){
 print('Exercice 6.3 - Conversion des notes en chiffres en notes en lettre');
 print('');
 
+}
 
-
-
+void ex06_4(){
 print('Exercice 6.4 - Avec une liste de nom, faire 3 listes - < que 8 - > que 8 c - = 8');
 print('');
 
 
-
-
+}
+void ex06_5(){
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
 print('');
     
 }
 void main(){
   ex06_1();
-}
+  ex06_2();
+  ex06_3();
+  ex06_4();
+  ex06_5();
+}}
