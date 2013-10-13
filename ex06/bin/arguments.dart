@@ -29,7 +29,19 @@ bool Palindrome(String text) {
 
 
 //arguments de lexercice 6.3
- 
+ conversiondenote(resultat){
+   if (resultat>=90)
+     return "A";
+   else if (resultat>=80)
+     return "B";
+   else if (resultat>=70)
+     return "C";
+   else if (resultat>=60)
+     return "D";
+   else return "E";
+  
+   
+ }
  
  
 

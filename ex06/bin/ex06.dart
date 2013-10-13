@@ -50,7 +50,15 @@ print('--------------------------------------------------');
 
 print('Exercice 6.3 - Conversion des notes en chiffres en notes en lettre');
 print('');
-  
+print('Note en lettre si 40%  :  ${conversiondenote(40)}');
+print('');
+print('Note en lettre si 65%  :  ${conversiondenote(65)}');
+print('');
+print('Note en lettre si 72%  :  ${conversiondenote(72)}');
+print('');
+print('Note en lettre si 89%  :  ${conversiondenote(89)}');
+print('');
+print('Note en lettre si 95%  :  ${conversiondenote(95)}');
 
 print('-------------------------------------------------------');
 
