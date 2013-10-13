@@ -50,7 +50,7 @@ print('--------------------------------------------------');
 
 print('Exercice 6.3 - Conversion des notes en chiffres en notes en lettre');
 print('');
-
+  
 
 print('-------------------------------------------------------');
 
@@ -61,9 +61,19 @@ print('''Exercice 6.4 - Avec une liste de nom, faire 3 listes  :
 print('');
 List listedenoms = ['Angele','Claude','Camyll','Francois','Pierre',
                     'Olivier','Melissa','Pascal','Sarah','Vincent',
-                    'Marianne','Christian','Christine','Martin','Isabelle','Josee'
-                    'Sylvain','Marc','Valerie','Nathalie','Luc','Lucie','Paul','Ruth'];
+                    'Marianne','Christian','Christine','Martin','Isabelle','Josee',
+                    'Sylvain','Marc','Valerie','Nathalie','Luc','Lucie','Paul','Ruth',
+                    'Marie-Claude','Nicolas-Serge','Daniel-Alexandre',];
 print('Voici la liste de nom : ${listedenoms}');
+
+print('');
+print('Voici les noms classés dans chaque liste');
+print('--------');
+Fonctiondeliste(listedenoms);
+
+
+
+
 print('-------------------------------------------------------');
 
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
