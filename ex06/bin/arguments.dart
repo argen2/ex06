@@ -77,6 +77,4 @@ bool Palindrome(String text) {
 
  
 //arguments de lexercice 6.5
-
-
-}
+  }

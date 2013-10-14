@@ -86,8 +86,15 @@ print('-------------------------------------------------------');
 
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
 print('');
-List joueur = [{"Rodriguez":"Yankees"} ,{"Sabathia":"Yankees"},{"Princefielder":"Tigers"},{ "Verlander":"Tigers"},{"Beltran":"Cards"}, {"Molina":"Cards"},{"Ramirez":"Dodgers"}, {"Crawford":"Dodgers"}];
-List club = ["Yankees","Tigers","Cards","Dodgers"];  
+List joueur = [{"Buchholz":"RedSox"} ,{"Ortiz":"RedSox"},{"Princefielder":"Tigers"},{ "Verlander":"Tigers"},{"Beltran":"Cards"}, {"Molina":"Cards"},{"Ramirez":"Dodgers"}, {"Crawford":"Dodgers"}];
+List club = ["RedSox","Tigers","Cards","Dodgers"];  
+
+print('Liste de 4 equipes de baseball majeure - 2 equipes de la Nationale - 2 equipes de l Americaine '); 
+print(club);
+print('');
+print('Liste des joueurs de ces equipes');
+print(joueur);
+print('');
 
 print('-------------------------------------------------------');
     
