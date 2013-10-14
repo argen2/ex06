@@ -1,6 +1,7 @@
 library ex06.dart;
 
 part 'arguments.dart';
+
 void main(){
 
   print('Exercice 6.1 - Verification si un texte est un Palindrome');
@@ -80,22 +81,16 @@ print('--------');
 Fonctiondeliste(listedenoms);
 
 
-
-
 print('-------------------------------------------------------');
 
 print('Exercice 6.5 - Classer des joueurs par ordre d equipe');
 print('');
-List joueur = [{"Buchholz":"RedSox"} ,{"Ortiz":"RedSox"},{"Princefielder":"Tigers"},{ "Verlander":"Tigers"},{"Beltran":"Cards"}, {"Molina":"Cards"},{"Ramirez":"Dodgers"}, {"Crawford":"Dodgers"}];
-List club = ["RedSox","Tigers","Cards","Dodgers"];  
 
-print('Liste de 4 equipes de baseball majeure - 2 equipes de la Nationale - 2 equipes de l Americaine '); 
-print(club);
-print('');
-print('Liste des joueurs de ces equipes');
-print(joueur);
-print('');
+Map TeamPlayers = {"Buchholz":"RedSox" ,"Ortiz":"RedSox","Princefielder":"Tigers", "Verlander":"Tigers","Beltran":"Cards","Molina":"Cards","Ramirez":"Dodgers", "Crawford":"Dodgers"};
 
-print('-------------------------------------------------------');
-    
+var resultatsde65 = listedejoueuretclub(TeamPlayers);
+print('Voici la liste des joueurs et des equipes');
+print('');
+print(resultatsde65);
+
 }

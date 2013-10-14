@@ -1,4 +1,6 @@
 part of ex06;
+
+
 //arguments de lexercice 6.1 
 bool Palindrome(String text) {
   
@@ -73,8 +75,34 @@ bool Palindrome(String text) {
    
    
    }
-
+ }
+  //arguments de 6.5 //inspiré des travaux de BigLat1595
+ listedejoueuretclub(TeamPlayers){
+   List teams = new List();
+   List players = new List();
+   
+   for (String equipe in TeamPlayers.values) {
+     if (!teams.contains(equipe)) {
+       teams.add(equipe);
+       players.add(new List());
+     }
+   }
+   teams.sort();
+   
+   
+   for (String joueur in TeamPlayers.keys) {
+     int position = teams.indexOf(TeamPlayers[joueur]);
+     players.elementAt(position).add(joueur);
+   }
+   
+   List fonctiondeliste2 = new List();
+   for (int i = 0; i < teams.length; i++) {
+     fonctiondeliste2.add(teams.elementAt(i));
+     for(int j = 0; j < players.elementAt(i).length; j++) {
+       fonctiondeliste2.add(players.elementAt(i).elementAt(j));
+     }
+   }
+  return(fonctiondeliste2);
+ }
 
  
-//arguments de lexercice 6.5
-  }
