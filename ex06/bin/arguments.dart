@@ -16,7 +16,7 @@ bool Palindrome(String text) {
   }
   
   return true;
-}// arguments de lexercice 6.1
+}
 
 
 
